@@ -1,0 +1,535 @@
+[
+    {
+        "id": "8ec1f796.9a9b88",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e205865.c7c9778",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Registration Page",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b32cf332.09317",
+        "type": "ui_group",
+        "z": "",
+        "name": "Reg form",
+        "tab": "e205865.c7c9778",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "43ac7a54.e46274",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "1a3200f4.e27d2f",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Login Page",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a1a2a077.ce38d",
+        "type": "ui_group",
+        "z": "",
+        "name": "Login form",
+        "tab": "1a3200f4.e27d2f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2511ecb2.a05d14",
+        "type": "ui_tab",
+        "z": "",
+        "name": "CustomerHelp",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f46e19b7.0b16f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Bot",
+        "tab": "2511ecb2.a05d14",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "14987823.d0ac38",
+        "type": "ui_form",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "label": "",
+        "group": "b32cf332.09317",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter Name",
+                "value": "name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Email",
+                "value": "email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "name": "",
+            "email": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Create",
+        "cancel": "Cancel",
+        "topic": "",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "b83e7c1f.64b0a",
+                "668f68d3.950fc8"
+            ]
+        ]
+    },
+    {
+        "id": "b83e7c1f.64b0a",
+        "type": "debug",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "668f68d3.950fc8",
+        "type": "function",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "func": "msg.payload = {\n    _id:msg.payload.email,\n    name:msg.payload.name,\n    email:msg.payload.email,\n    password:msg.payload.password\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 520,
+        "y": 260,
+        "wires": [
+            [
+                "a2c4e38c.6aa22"
+            ]
+        ]
+    },
+    {
+        "id": "a2c4e38c.6aa22",
+        "type": "cloudant out",
+        "z": "8ec1f796.9a9b88",
+        "name": "cloudant",
+        "cloudant": "",
+        "database": "sample",
+        "service": "node-red-lnptk-2020--cloudant-1597403170863-9634",
+        "payonly": true,
+        "operation": "insert",
+        "x": 780,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "dd9ac6ae.55be78",
+        "type": "ui_form",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "label": "",
+        "group": "a1a2a077.ce38d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Enter Email",
+                "value": "email",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Enter Password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "email": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Login",
+        "cancel": "Cancel",
+        "topic": "",
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "5998330b.b5b6cc"
+            ]
+        ]
+    },
+    {
+        "id": "5998330b.b5b6cc",
+        "type": "function",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "func": "global.set('email',msg.payload.email);\nglobal.set('password',msg.payload.password);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 450,
+        "y": 500,
+        "wires": [
+            [
+                "4f5d8f1a.62f66"
+            ]
+        ]
+    },
+    {
+        "id": "4f5d8f1a.62f66",
+        "type": "function",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "func": "var email = global.get('email');\n\nmsg.payload = 'email:'+email;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 670,
+        "y": 500,
+        "wires": [
+            [
+                "87116162.56549"
+            ]
+        ]
+    },
+    {
+        "id": "87116162.56549",
+        "type": "cloudant in",
+        "z": "8ec1f796.9a9b88",
+        "name": "cloudant",
+        "cloudant": "",
+        "database": "sample",
+        "service": "node-red-lnptk-2020--cloudant-1597403170863-9634",
+        "search": "_idx_",
+        "design": "user",
+        "index": "user",
+        "x": 900,
+        "y": 500,
+        "wires": [
+            [
+                "64aaebfb.e85284"
+            ]
+        ]
+    },
+    {
+        "id": "64aaebfb.e85284",
+        "type": "function",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "func": "if(msg.payload.password[0]===global.get('password')) {\n    msg.payload='Login Success';\n}\nelse {\n    msg.payload='Login Failed';\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1120,
+        "y": 500,
+        "wires": [
+            [
+                "99612820.1c1ff8"
+            ]
+        ]
+    },
+    {
+        "id": "12f5d2f9.d4b64d",
+        "type": "debug",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "99612820.1c1ff8",
+        "type": "ui_text",
+        "z": "8ec1f796.9a9b88",
+        "group": "a1a2a077.ce38d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1330,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b89ef5e7.2ed328",
+        "type": "ui_form",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "label": "",
+        "group": "f46e19b7.0b16f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "User Input",
+                "value": "input",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "input": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 250,
+        "y": 720,
+        "wires": [
+            [
+                "4fee07c.58a1ff8"
+            ]
+        ]
+    },
+    {
+        "id": "4fee07c.58a1ff8",
+        "type": "function",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "func": "msg.payload = msg.payload.input;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 440,
+        "y": 720,
+        "wires": [
+            [
+                "6622e315.e02b0c"
+            ]
+        ]
+    },
+    {
+        "id": "6622e315.e02b0c",
+        "type": "watson-conversation-v1",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "workspaceid": "743f00e5-8ae7-43ee-8d1b-ca7b1bdd4898",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "service-endpoint": "https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/c9522876-b675-4299-9b7b-a34f815f921e",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 660,
+        "y": 720,
+        "wires": [
+            [
+                "3fb1ff43.c4bad",
+                "6a8a7354.a99d4c"
+            ]
+        ]
+    },
+    {
+        "id": "d6d91e50.de4e3",
+        "type": "ui_text",
+        "z": "8ec1f796.9a9b88",
+        "group": "f46e19b7.0b16f8",
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "name": "",
+        "label": "Bot Response",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1180,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "3fb1ff43.c4bad",
+        "type": "debug",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "6a8a7354.a99d4c",
+        "type": "function",
+        "z": "8ec1f796.9a9b88",
+        "name": "",
+        "func": "msg.payload = msg.payload.output.generic[0].text;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 920,
+        "y": 720,
+        "wires": [
+            [
+                "d6d91e50.de4e3"
+            ]
+        ]
+    }
+]
