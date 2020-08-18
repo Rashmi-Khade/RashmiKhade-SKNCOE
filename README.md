@@ -1,4 +1,4 @@
-# SamarendraYadav-SKNCOE
+# RashmiKhade-SKNCOE
 
 # IBM Cloud Workshop
 
