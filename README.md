@@ -1,4 +1,4 @@
-# tamal-skncoe
+# SamarendraYadav-SKNCOE
 
 # IBM Cloud Workshop
 
